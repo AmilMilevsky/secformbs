@@ -1,0 +1,127 @@
+* .container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background: #58d3e5;
+  background: linear-gradient(90deg, #58d3e5 0%, #9b11ea 100%);
+}
+* .container-fluid .form {
+  background-color: white;
+  margin-top: 15vh;
+  height: 70vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+* .container-fluid .main .row {
+  text-align: center;
+  align-items: center;
+}
+* .container-fluid .main .row1 {
+  background: #57D2E4;
+  background: linear-gradient(to right, #57D2E4 0%, #990fe8 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+* .container-fluid .main .row1 h1 {
+  padding: 20px !important;
+}
+* .container-fluid .main .row2,
+* .container-fluid .main .row3,
+* .container-fluid .main .row4 {
+  text-align: left;
+}
+* .container-fluid .main .row2 label,
+* .container-fluid .main .row3 label,
+* .container-fluid .main .row4 label {
+  transition: 0.6s;
+  position: absolute;
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+  font-size: 0.9rem;
+  cursor: text;
+  color: white;
+  opacity: 0;
+}
+* .container-fluid .main .row2 input,
+* .container-fluid .main .row3 input,
+* .container-fluid .main .row4 input {
+  z-index: 100;
+  margin-top: 40px !important;
+  padding: 5px !important;
+  border: none;
+  border-bottom: 2px solid #e7e7e7;
+  transition: 0.6s;
+  width: 90%;
+  outline: none;
+}
+* .container-fluid .main .row2 input::-moz-placeholder, * .container-fluid .main .row3 input::-moz-placeholder, * .container-fluid .main .row4 input::-moz-placeholder {
+  color: gray !important;
+  -moz-transition: 0.6s;
+  transition: 0.6s;
+}
+* .container-fluid .main .row2 input:-ms-input-placeholder, * .container-fluid .main .row3 input:-ms-input-placeholder, * .container-fluid .main .row4 input:-ms-input-placeholder {
+  color: gray !important;
+  -ms-transition: 0.6s;
+  transition: 0.6s;
+}
+* .container-fluid .main .row2 input::placeholder,
+* .container-fluid .main .row3 input::placeholder,
+* .container-fluid .main .row4 input::placeholder {
+  color: gray !important;
+  transition: 0.6s;
+}
+* .container-fluid .main .row2 input:focus,
+* .container-fluid .main .row3 input:focus,
+* .container-fluid .main .row4 input:focus {
+  background: #57D2E4;
+  background: linear-gradient(to right, #57D2E4 0%, #990fe8 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+* .container-fluid .main .row2 input:hover, * .container-fluid .main .row2 input:focus,
+* .container-fluid .main .row3 input:hover,
+* .container-fluid .main .row3 input:focus,
+* .container-fluid .main .row4 input:hover,
+* .container-fluid .main .row4 input:focus {
+  border-bottom: 2px solid #2abfda;
+}
+* .container-fluid .main .row2 input:hover::-moz-placeholder, * .container-fluid .main .row2 input:focus::-moz-placeholder, * .container-fluid .main .row3 input:hover::-moz-placeholder, * .container-fluid .main .row3 input:focus::-moz-placeholder, * .container-fluid .main .row4 input:hover::-moz-placeholder, * .container-fluid .main .row4 input:focus::-moz-placeholder {
+  opacity: 0;
+}
+* .container-fluid .main .row2 input:hover:-ms-input-placeholder, * .container-fluid .main .row2 input:focus:-ms-input-placeholder, * .container-fluid .main .row3 input:hover:-ms-input-placeholder, * .container-fluid .main .row3 input:focus:-ms-input-placeholder, * .container-fluid .main .row4 input:hover:-ms-input-placeholder, * .container-fluid .main .row4 input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+* .container-fluid .main .row2 input:hover::placeholder, * .container-fluid .main .row2 input:focus::placeholder,
+* .container-fluid .main .row3 input:hover::placeholder,
+* .container-fluid .main .row3 input:focus::placeholder,
+* .container-fluid .main .row4 input:hover::placeholder,
+* .container-fluid .main .row4 input:focus::placeholder {
+  opacity: 0;
+}
+* .container-fluid .main .row2 .col-md-4 .control-group:focus-within label,
+* .container-fluid .main .row3 .col-md-4 .control-group:focus-within label,
+* .container-fluid .main .row4 .col-md-4 .control-group:focus-within label {
+  color: red;
+}
+* .container-fluid .main .row4 input {
+  width: 95%;
+}
+* .container-fluid .main .row5 button {
+  height: 50px;
+  width: 100%;
+  margin: 40px !important;
+  border-radius: 5px;
+  background: #58d3e5;
+  background: linear-gradient(90deg, #58d3e5 0%, #9b11ea 100%);
+  color: white;
+  border: none;
+  transition: 1s;
+  padding: 5px !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+* .container-fluid .main .row5 button:hover {
+  transition: 1s;
+  transform: scale(1.3);
+  letter-spacing: 1.5px;
+}/*# sourceMappingURL=style.css.map */
